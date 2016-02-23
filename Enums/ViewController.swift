@@ -10,11 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    enum Cars: String {
-        case bmw = "BMW"
-        case honda = "Honda"
-        case tesla = "Tesla"
-        case subaru = "Subaru"
+    @IBOutlet weak var carImage: UIImageView!
+    
+    enum Cars: Int {
+        case hatchback = 0
+        case american = 1
+        case sports = 2
+        case sedan = 3
     }
     
     var carOfChoice: Cars!
@@ -23,9 +25,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         
-        
-        carOfChoice = Cars.tesla
-        print(carOfChoice)
     }
     
     @IBAction func carBtnPressed(sender: UIButton!) {
@@ -33,6 +32,10 @@ class ViewController: UIViewController {
             sender.selected = false
         } else {
             sender.selected = true
+        }
+
+        if sender.tag == Cars.hatchback.rawValue {
+            
         }
     }
 
