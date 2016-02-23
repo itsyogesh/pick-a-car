@@ -12,6 +12,7 @@
 		EC4265631C7BA352003AE008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4265611C7BA352003AE008 /* Main.storyboard */; };
 		EC4265651C7BA352003AE008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4265641C7BA352003AE008 /* Assets.xcassets */; };
 		EC4265681C7BA352003AE008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4265661C7BA352003AE008 /* LaunchScreen.storyboard */; };
+		EC4265701C7BD398003AE008 /* CarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC42656F1C7BD398003AE008 /* CarButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EC4265641C7BA352003AE008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC4265671C7BA352003AE008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC4265691C7BA352003AE008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC42656F1C7BD398003AE008 /* CarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				EC42655F1C7BA352003AE008 /* ViewController.swift */,
 				EC4265611C7BA352003AE008 /* Main.storyboard */,
 				EC4265641C7BA352003AE008 /* Assets.xcassets */,
+				EC42656F1C7BD398003AE008 /* CarButton.swift */,
 				EC4265661C7BA352003AE008 /* LaunchScreen.storyboard */,
 				EC4265691C7BA352003AE008 /* Info.plist */,
 			);
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC4265701C7BD398003AE008 /* CarButton.swift in Sources */,
 				EC4265601C7BA352003AE008 /* ViewController.swift in Sources */,
 				EC42655E1C7BA352003AE008 /* AppDelegate.swift in Sources */,
 			);

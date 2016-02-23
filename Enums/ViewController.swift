@@ -9,10 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    enum Cars: String {
+        case bmw = "BMW"
+        case honda = "Honda"
+        case tesla = "Tesla"
+        case subaru = "Subaru"
+    }
+    
+    var carOfChoice: Cars!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        
+        carOfChoice = Cars.tesla
+        print(carOfChoice)
     }
 
     override func didReceiveMemoryWarning() {
