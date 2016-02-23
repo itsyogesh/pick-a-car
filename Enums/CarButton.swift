@@ -14,8 +14,8 @@ class CarButton: UIButton {
     
     override func awakeFromNib() {
         setBackgroundImage(bgImage, forState: .Selected)
+        setBackgroundImage(bgImage, forState: .Highlighted)
     }
-    
     
 }
 

@@ -27,6 +27,14 @@ class ViewController: UIViewController {
         carOfChoice = Cars.tesla
         print(carOfChoice)
     }
+    
+    @IBAction func carBtnPressed(sender: UIButton!) {
+        if(sender.selected){
+            sender.selected = false
+        } else {
+            sender.selected = true
+        }
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
