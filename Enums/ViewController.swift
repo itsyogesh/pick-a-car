@@ -33,9 +33,25 @@ class ViewController: UIViewController {
         } else {
             sender.selected = true
         }
-
+        
         if sender.tag == Cars.hatchback.rawValue {
-            
+            carImage.image = UIImage(named: "hatchback-car")
+            self.viewDidLoad()
+        }
+        
+        else if sender.tag == Cars.american.rawValue {
+            carImage.image = UIImage(named: "muscle-car")
+            self.viewDidLoad()
+        }
+        
+        else if sender.tag == Cars.sports.rawValue {
+            carImage.image = UIImage(named: "sports-car")
+            self.viewDidLoad()
+        }
+        
+        else {
+            carImage.image = UIImage(named: "sedan-car")
+            self.viewDidLoad()
         }
     }
 

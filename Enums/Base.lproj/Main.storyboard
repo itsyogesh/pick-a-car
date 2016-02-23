@@ -28,21 +28,21 @@
                                             <action selector="carBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oyF-g2-eQl"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7R-SG-hAO">
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7R-SG-hAO">
                                         <rect key="frame" x="150" y="0.0" width="150" height="90"/>
                                         <state key="normal" image="Muscle"/>
                                         <connections>
                                             <action selector="carBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eWN-ws-Wuu"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qLU-tu-Rxn">
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qLU-tu-Rxn">
                                         <rect key="frame" x="300" y="0.0" width="150" height="90"/>
                                         <state key="normal" image="Sports"/>
                                         <connections>
                                             <action selector="carBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zYw-vO-oaX"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZD8-b0-VNd">
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZD8-b0-VNd">
                                         <rect key="frame" x="450" y="0.0" width="150" height="90"/>
                                         <state key="normal" image="sedan"/>
                                         <connections>
@@ -93,6 +93,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="carImage" destination="I2M-OQ-eyb" id="q1A-sM-L2d"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
